@@ -3,6 +3,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaFileUpload
 
+from config import UPLOAD_DIR_ID
 
 def upload_file(service, file_name, upload_file_path):
     try:

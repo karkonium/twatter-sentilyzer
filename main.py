@@ -5,7 +5,7 @@ from __future__ import print_function
 
 from services import upload_file, get_tweets
 from analyses import get_emotion, get_sentiment
-
+from config import REFRESH_TOKEN, CLIENT_ID, CLIENT_SECRET
 
 CRYPTO_NAME_TICKER = [("Bitcoin", "BTC"),
     ("Bitcoin Cash", "BCH"),
