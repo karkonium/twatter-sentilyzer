@@ -14,6 +14,6 @@ TwitterScrapper is a Python tool designed to scrape Twitter for cryptocurrency-r
 
 ### How to Run
 ```
-python3 main.py <start-date>`<end-date>
+python3 main.py <start-date> <end-date>
 ```
 Where dates are in YYYY-MM-DD format, start-date must be earlier than end-date; also note that start-date is inclusive, end-date is exclusive.
