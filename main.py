@@ -80,7 +80,7 @@ def calculate_sentiment(data):
 
 if __name__ == "__main__":
     if (len(sys.argv) != 3):
-        print("Usage: `python3 twitter_scrapper_script.py <start-date>`<end-date>", 
+        print("Usage: `python3 main.py <start-date>`<end-date>", 
             "dates must be in YYYY-MM-DD format", 
             "start-date must be earlier than end-date", 
             "start-date is inclusive, end-date is exclusive", 
